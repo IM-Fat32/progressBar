@@ -1,0 +1,35 @@
+/* Reset stylesheet */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Progressbar wrapper */
+.container {
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 30px;
+}
+
+/* Reset stylesheet */
+.progressbar,
+.progressbar__fill {
+  position: absolute;
+  border-radius: 20px;
+  height: 50px;
+}
+
+.progressbar {
+  border: 3px solid black;
+  width: 100%;
+}
+
+.progressbar__fill {
+  background-color: red;
+  width: -50%;
+}
